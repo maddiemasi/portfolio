@@ -13,7 +13,7 @@ body {
 }
 
 body {
-    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Slabo 27px', serif;
 }
 
 .text-vertical-center {
@@ -25,7 +25,7 @@ body {
 .text-vertical-center h1 {
     margin: 0;
     padding: 0;
-    font-size: 4.5em;
+    font-size: 6em;
     font-weight: 700;
 }
 
@@ -162,10 +162,24 @@ hr.small {
     -o-background-size: cover;
 }
 
+h1{
+	font-family: 'Roboto', sans-serif;
+}
+
+h3{
+	font-family: 'Lobster', cursive;
+}
 /* About */
 
 .about {
     padding: 50px 0;
+}
+
+.skills li{
+	text-decoration: none;
+	list-style-type: none;
+	font-family: 'Molle', cursive;
+	font-size: 20px;
 }
 
 /* Services */
@@ -195,7 +209,8 @@ hr.small {
 /* Portfolio */
 
 .portfolio {
-    padding: 50px 0;
+    padding: 20px 0;
+	background-color: #AA4465;
 }
 
 .portfolio-item {
@@ -216,25 +231,14 @@ hr.small {
     padding: 50px 0;
 }
 
+h4{
+	font-family: 'Roboto', sans-serif;
+}
+
 .call-to-action .btn {
     margin: 10px;
 }
 
-/* Map */
-
-.map {
-    height: 500px;
-}
-
-@media(max-width:768px) {
-    .map {
-        height: 75%;
-    }
-}
-
-.map iframe {
-    pointer-events: none;
-}
 
 /* Footer */
 
