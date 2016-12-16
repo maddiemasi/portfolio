@@ -25,7 +25,7 @@ body {
 .text-vertical-center h1 {
     margin: 0;
     padding: 0;
-    font-size: 6em;
+    font-size: 9em;
     font-weight: 700;
 }
 
@@ -168,11 +168,13 @@ h1{
 
 h3{
 	font-family: 'Lobster', cursive;
+	font-size: 6em;
 }
 /* About */
 
 .about {
     padding: 50px 0;
+	background-color: #E1D3E0;
 }
 
 .skills li{
@@ -182,15 +184,7 @@ h3{
 	font-size: 20px;
 }
 
-/* Services */
 
-.services {
-    padding: 50px 0;
-}
-
-.service-item {
-    margin-bottom: 30px;
-}
 
 /* Callout */
 
@@ -198,19 +192,33 @@ h3{
     display: table;
     width: 100%;
     height: 400px;
-    color: #fff;
-    background: url(../img/callout.jpg) no-repeat center center scroll;
+    color: #ffffff;
+    background-color: #292F36;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
 
+.callout a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.callout a:hover{
+	text-decoration: none;
+	color: #465775;
+}
+
 /* Portfolio */
 
 .portfolio {
     padding: 20px 0;
-	background-color: #AA4465;
+	background-color: #465775;
+}
+
+.portfolio h2{
+	color: #ffffff;
 }
 
 .portfolio-item {
@@ -229,6 +237,7 @@ h3{
 
 .call-to-action {
     padding: 50px 0;
+	background-color: #302F4D;
 }
 
 h4{
@@ -244,6 +253,7 @@ h4{
 
 footer {
     padding: 100px 0;
+	background-color: #E1D3E0;
 }
 
 #to-top {
@@ -252,3 +262,4 @@ footer {
   bottom: 5px;
   right: 5px;
 }
+
